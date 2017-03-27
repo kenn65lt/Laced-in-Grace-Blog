@@ -8,8 +8,10 @@
 
 /*Body */
 body {
-	background-image: url(images/cover.jpg) ;
-	/*text-align: center;*/
+
+	/*background-image: url(Images/background1.JPG) ;*/
+	/*tex t-align: center;*/
+	background-color: red;
 	min-width: 100%;
     height: 100vh;
     background-repeat:   no-repeat;
@@ -18,6 +20,27 @@ body {
 	font-family: 'Abel', sans-serif;
 }
 /*Body end*/
+
+
+/*Loading page*/
+#page {
+    display: none;
+}
+#loading {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-color:white;/* rgba(192, 192, 192, 0.5);*/
+    background-image: url("http://i.stack.imgur.com/MnyxU.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*Loading page end*/
 
 /*H1*/
 h1 {
@@ -52,11 +75,31 @@ background-color: transparent;
    border-color: transparent;
 
 }
-.navbar .navbar-brand {
-	background-image: url(images/highlightBrand.png);
-	color: #00ff9c;
+a {
+	
+}
+.navbar-header{
+	
+
+
+}
+.navbar-header .navbar-brand{
+	color: black;
 	padding-left: 200px;
 	font-size: 30px;
-	background-image: url(images/highlightBrand.png);
+	font-weight: bold;
+	background-image: url(Images/brandBg.png);
+		background-position: absolute;
+	background-repeat: no-repeat;
+	/*background-position: relative;*/
+	background-position: 180px 0px;
+	background-size: 200px 210px
+	
+
+} 
+a {
+
+
+
 }
 /*Navbar Brand end
