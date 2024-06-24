@@ -1,6 +1,6 @@
 // Loading page
 function onReady(callback) {
-    var intervalID = window.setInterval(checkReady, 3000);
+    var intervalID = window.setInterval(checkReady, 2000);
 
     function checkReady() {
         if (document.getElementsByTagName('body')[0] !== undefined) {

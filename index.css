@@ -1,26 +1,100 @@
-/*Fonts*/
+
 @import url('https://fonts.googleapis.com/css?family=Abel');
 /*Fonts end*/
 
 /*Colors*/
 /*#666686 --- Dark blue*/
-
-
+/*font-family: 'Abel', sans-serif;*/
+html{
+    height: 100%;
+    width: 100%;
+}
 /*Body */
 body {
 
-	/*background-image: url(Images/background1.JPG) ;*/
-	/*tex t-align: center;*/
-	background-color: red;
-	min-width: 100%;
-    height: 100vh;
-    background-repeat:   no-repeat;
-    background-position: center center; 
-    background-size: cover;
-	font-family: 'Abel', sans-serif;
+/*	background: url(Images/background1.JPG) no-repeat top center fixed ;
+*/	/*tex t-align: center;*/
+	/* margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+     background-size: cover;*/
+	/*min-width: 100%;
+    height: 100vh;*/
+    /*background:;*/
+    /*background-repeat:   no-repeat;
+    background-position: center center;*/ 
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+	
 }
 /*Body end*/
 
+.header {
+		background: url(Images/background1.JPG) no-repeat top center fixed ;
+	 background-size: cover;
+	 height: 100%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    display: block;
+}
+
+
+#headingPage{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+#headingPage h1 {
+	text-align: center;
+	padding-top: 210px;
+	color: #00ff9c;
+	font-size: 64px;
+    font-family: 'Abel', sans-serif;
+    font-weight: normal;
+}
+/*H1 end*/
+#blog-1 {
+    width:100%;
+    height:100%;
+    margin:auto;
+    padding:0 20px 0 20px;
+}
+#blog-1 img{
+	 max-width: 700px;
+    height: 400px;
+    border-radius: 40px
+}
+/*Navbar Brand*/
+.navbar {
+background-color: red;
+   background: transparent;
+   border-color: transparent;
+
+}
+.navbar-header .navbar-brand{
+	color: black;
+	padding-left: 200px;
+	font-size: 30px;
+	font-weight: bold;
+	background-image: url(Images/brandBg.png);
+		background-position: absolute;
+	background-repeat: no-repeat;
+	/*background-position: relative;*/
+	background-position: 180px 0px;
+	background-size: 200px 210px;
+} 
+/*Navbar Brand end*/
+#screen3 {
+    width:100%;
+        height:900px;
+        margin:auto;
+        padding:0 20px 0 20px;
+}
 
 /*Loading page*/
 #page {
@@ -39,67 +113,4 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 }
-
-/*Loading page end*/
-
-/*H1*/
-h1 {
-	text-align: center;
-}
-/*H1 end*/
-
-/*Background 1 */
-.bg-1 {
-	
-	
-	
-  /*  overflow:overlay*/
-}
-.bg-1 h1 {
-
-	padding-top: 210px;
-	color: #00ff9c;
-	font-size: 64px;
-
-font-family: 'Abel', sans-serif;
-font-weight: normal;
-
-
-}
-/*Background 1 end*/
-
-/*Navbar Brand*/
-.navbar {
-background-color: transparent;
-   background: transparent;
-   border-color: transparent;
-
-}
-a {
-	
-}
-.navbar-header{
-	
-
-
-}
-.navbar-header .navbar-brand{
-	color: black;
-	padding-left: 200px;
-	font-size: 30px;
-	font-weight: bold;
-	background-image: url(Images/brandBg.png);
-		background-position: absolute;
-	background-repeat: no-repeat;
-	/*background-position: relative;*/
-	background-position: 180px 0px;
-	background-size: 200px 210px
-	
-
-} 
-a {
-
-
-
-}
-/*Navbar Brand end
+/*Loading page end

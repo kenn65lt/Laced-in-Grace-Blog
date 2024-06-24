@@ -1,0 +1,18 @@
+Developed by: Kennedy Raine Maranion
+Started: March 23, 2017
+End: 
+
+
+Technologies will use: HTML, CSS(Bootstrap), JavaScript(JQuery, React JS).
+
+Laced in Grace Blog PLAN:
+
+1. Create a blog webpage that is responsive.
+2. Create a loading page that when is loading it shows a rotating load gif.
+3. Fixed background so when it scrolled down the background stays but the other stuff above it scrolls.
+4.Each page would be a picture that takes almost the whole screen but there is either a pargraph above it or in the bottom.
+5. If the paragraph is too big some of it will get hidden then a "Continue Reading" button will be made for it to drop down.
+6. First two blogs would be like an introductory blogs so their pictures will be big then other else would be a 2 images x blog  each layou.
+5.  There would be a small sidebar that is an  About Me page then with subscribe for the blog.
+6. Navbar would have a simple design that is transparent, it will have the home page button which is just the name of the blog.
+7. Then Email, Facebook, and instagram button(if the client wants it).
